@@ -1,4 +1,8 @@
 dotfiles
 ========
 
-Currently just vim and zsh setup - no custom setup script yet.
+Install the vim bundles:
+
+```bash
+./install-bundles.sh
+```
