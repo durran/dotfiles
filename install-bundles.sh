@@ -1,3 +1,6 @@
+if [ ! -d ".vimbundles" ]; then
+  mkdir .vimbundles
+fi
 cd .vimbundles
 echo "Updating vim bundles     <------"
 
