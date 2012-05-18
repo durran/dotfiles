@@ -1,5 +1,14 @@
+cd ~
+
+ln -s ~/dotfiles/.vim ~/.vim
+ln -s ~/dotfiles/.vimrc ~/.vimrc
+ln -s ~/dotfiles/.zshrc ~/.zshrc
+
+cd dotfiles
+
 if [ ! -d ".vimbundles" ]; then
   mkdir .vimbundles
+  ln -s ~/dotfiles/.vimbundles ~/.vimbundles
 fi
 cd .vimbundles
 echo "Updating vim bundles     <------"
