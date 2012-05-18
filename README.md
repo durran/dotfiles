@@ -1,5 +1,7 @@
-dotfiles
+Dotfiles
 ========
+
+These are for use with oh-my-zsh and vim.
 
 To setup, execute the script, which will install the basic dotfiles,
 symlink them to your home directory, and grab all the vim bundles.
