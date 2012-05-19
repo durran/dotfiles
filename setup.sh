@@ -153,11 +153,11 @@ else
   git clone https://github.com/tpope/vim-unimpaired.git
 fi
 
-echo "The-NERD-Commenter       <------"
-if [ -d "The-NERD-Commenter" ]; then
-  cd The-NERD-Commenter && git pull && cd ..
+echo "nerdcommenter           <------"
+if [ -d "nerdcommenter" ]; then
+  cd nerdcommenter && git pull && cd ..
 else
-  git clone https://github.com/vim-scripts/The-NERD-Commenter.git
+  git clone https://github.com/scrooloose/nerdcommenter.git
 fi
 
 echo "VimClojure               <------"
