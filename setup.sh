@@ -90,6 +90,13 @@ else
   git clone https://github.com/tpope/vim-pathogen.git
 fi
 
+echo "vim-projectionist        <------"
+if [ -d "vim-projectionist" ]; then
+  cd vim-pathogen && git pull && cd ..
+else
+  git clone git://github.com/tpope/vim-projectionist.git
+fi
+
 echo "vim-ragtag               <------"
 if [ -d "vim-ragtag" ]; then
   cd vim-ragtag && git pull && cd ..
